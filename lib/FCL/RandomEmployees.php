@@ -36,7 +36,7 @@ class RandomEmployees implements Iterator, Countable
 
     private function getBucketRatio()
     {
-        return $this->employeesAmont / $this->awardsAmount;
+        return $this->employeesAmount / $this->awardsAmount;
     }
 
     public function shuffle()
